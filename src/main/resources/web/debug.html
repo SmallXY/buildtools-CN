@@ -1,0 +1,30 @@
+<!--NOTE: Java Swing uses the HTML4 standard. Not HTML5-->
+<html>
+  %STYLESHEET%
+
+  <body>
+    <div>
+      <h2>程序信息</h2>
+      <p>构建工具版本: %BUILDTOOLS_VERSION%</p>
+      <p>Java版本: %JAVA_VERSION%</p>
+      <p>当前路径: %CURRENT_PATH%</p>
+      <p>使用的标记: %BUILDTOOLS_FLAGS%</p>
+    </div>
+
+    <p></p>
+    <div>
+      <h2>操作系统</h2>
+      <p>%OS_NAME% (%OS_ARCH%)</p>
+      <p>内核版本：%KERNEL_VERSION%</p>
+    </div>
+
+    <p></p>
+
+    <div>
+      <h2>计算机信息</h2>
+      <p>内存使用情况：%MEM_USAGE%</p>
+      <p>已安装的Java版本：</p>
+      %JAVA_INSTALLATIONS%
+    </div>
+  </body>
+</html>

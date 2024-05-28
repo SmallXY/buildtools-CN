@@ -1,0 +1,59 @@
+<!--NOTE: Java Swing uses the HTML4 standard. Not HTML5-->
+<html>
+  %STYLESHEET%
+
+  <body>
+      <div>
+        <p>BuildTools 无法找到构建 %VERSION% 所需的 Java 可执行文件。</p>
+        <p>构建 %VERSION% 需要 %JAVA_VERSION_MIN% 或 %JAVA_VERSION_MAX%。</p>
+        <p></p>
+        <p>您可以使用以下链接之一下载所需的版本。</p>
+        <p>提供的链接包含所有操作系统的下载。</p>
+      </div>
+
+      <p></p>
+      <p>请确保您安装的是可执行文件，而不是 .zip / .tar.gz！</p>
+      <p>Windows (.exe / .msi)</p>
+      <p>Mac (.dmg / .pkg)</p>
+      <p>Linux (.deb / .rpm)</p>
+
+      <p></p>
+
+      <div>
+        <h3>OpenJDK</h3>
+        <a href="%OPENJDK_LINK%">%OPENJDK_LINK%</a>
+      </div>
+
+      <p></p>
+
+      <div>
+        <h3>Azul</h3>
+        <a href="%AZUL_LINK%">%AZUL_LINK%</a>
+      </div>
+
+      <p></p>
+
+      <div>
+        <h3>Oracle</h3>
+        <a href="%ORACLE_LINK%">%ORACLE_LINK%</a>
+      </div>
+
+      <p></p>
+
+      <div>
+        <p>安装完所需的 Java 版本后，请重新启动 BuildTools 并重试。</p>
+      </div>
+
+      <p></p>
+
+      <div>
+        <p>如果您认为这个错误是一个错误，并且已经安装了所需的 Java 版本，请按照以下说明操作：</p>
+        <p></p>
+        <p>1. 转到选项标签页</p>
+        <p>2. 启用 "覆盖 Java 可执行文件" 复选框。</p>
+        <p>3. 提供正确的 Java 路径。</p>
+        <p>4. 再次尝试。:) </p>
+      </div>
+  </body>
+
+</html>
